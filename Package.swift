@@ -7,7 +7,8 @@ let package = Package(
     name: "Parma",
     platforms: [
         .macOS("11.0"),
-        .iOS("14.0")
+        .iOS("14.0"),
+        .tvOS(.v14),
     ],
     products: [
         .library(
